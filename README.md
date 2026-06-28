@@ -1,5 +1,8 @@
 # Subdomain-Enumeration
 
+📘 Subdomain Enumeration Tool 
+ It is an advanced reconnaissance and attack surface mapping tool that systematically discovers subdomains associated with a target domain. Subdomain enumeration is a critical phase in penetration testing and bug bounty hunting, as it often reveals forgotten, unpatched, or development systems that are more vulnerable than the primary domain. This tool automates the discovery process using a combination of brute‑force, passive DNS, and third‑party intelligence, providing a comprehensive view of an organisation's external digital footprint.
+
 
 🎯 Objective
 
@@ -12,6 +15,7 @@ To automate the discovery of subdomains belonging to a target domain. Manual sub
     Map the attack surface of an organisation before launching further penetration testing activities.
 
     Enrich intelligence for threat hunting and continuous security monitoring.
+    
 
 🧠 How It Works – Technical Overview
 
@@ -43,6 +47,7 @@ The tool employs a multi‑layered approach to maximise subdomain discovery:
     Utilises multi‑threading or asynchronous I/O to perform hundreds or thousands of DNS queries simultaneously, drastically reducing scan time.
 
     A full scan of a large wordlist (10,000+ entries) can be completed in minutes, not hours.
+   
 
 ✨ Advanced Features (Real‑World Upgrade)
 Feature	Implementation
